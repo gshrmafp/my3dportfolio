@@ -24,7 +24,6 @@ import {
   git,
   figma,
   docker,
-  meta,
   apeejay,
   airtel,
   smartworkflow,
