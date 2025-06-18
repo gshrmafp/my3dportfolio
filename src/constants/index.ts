@@ -25,155 +25,79 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+  apeejay,
+  airtel,
+  smartworkflow,
+  crcdrapp,
+  regionalapp,
+  parentapp,
+} from "../assets"; // Make sure you add these assets
 
 export const navLinks: TNavLink[] = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "projects", title: "Projects" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services: TService[] = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
   {
     title: "React Native Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Java Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full-Stack Developer",
+    icon: web,
+  },
+  {
+    title: "Technical Content Creator",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
+  { name: "Redux Toolkit", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "MongoDB", icon: mongodb },
+  { name: "git", icon: git },
+  { name: "figma", icon: figma },
+  { name: "docker", icon: docker },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Developer",
+    companyName: "Apeejay Education Society",
+    icon: apeejay, // replace with your company logo
+    iconBg: "#ffffff",
+    date: "Feb 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and launched the Apeejay Parent App using React Native for 10,000+ parents.",
+      "Integrated push notifications and real-time updates using Firebase.",
+      "Built CRC DR App to streamline communication between doctors and medical reps.",
+      "Developed Regional Manager App and a React.js Admin Panel for centralized control.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Associate Software Developer Intern",
+    companyName: "Bharti Airtel Limited",
+    icon: airtel, // replace with your company logo
+    iconBg: "#fefefe",
+    date: "Feb 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built data-driven dashboards for business intelligence and internal reporting.",
+      "Implemented bulk CSV upload feature for large datasets.",
+      "Improved internal UI flows and optimized component-based structure.",
     ],
   },
 ];
@@ -181,93 +105,67 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Gourav is a proactive developer who takes full ownership of his projects. His code quality and problem-solving skills are top-notch.",
+    name: "Rajesh Verma",
+    designation: "Project Manager",
+    company: "Apeejay Education Society",
+    image: "https://randomuser.me/api/portraits/men/10.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "During his internship, Gourav showed excellent technical acumen and always delivered on time.",
+    name: "Priya Mehra",
+    designation: "Tech Lead",
+    company: "Bharti Airtel",
+    image: "https://randomuser.me/api/portraits/women/9.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Apeejay Parent App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Cross-platform mobile app allowing parents to monitor attendance, apply leave, and pay fees with real-time Firebase updates.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react-native", color: "blue-text-gradient" },
+      { name: "firebase", color: "orange-text-gradient" },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: parentapp,
+    sourceCodeLink: "https://github.com/gshrmafp", // replace with actual repo if public
   },
   {
-    name: "Job IT",
+    name: "CRC DR App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Doctor engagement app enabling scheduling, real-time notifications, and performance tracking for medical representatives.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react-native", color: "blue-text-gradient" },
+      { name: "firebase", color: "orange-text-gradient" },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: crcdrapp,
+    sourceCodeLink: "https://github.com/gshrmafp",
   },
   {
-    name: "Trip Guide",
+    name: "Regional Manager App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "App for regional managers to track doctor interactions, monitor performance, and streamline workflows.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react-native", color: "blue-text-gradient" },
+      { name: "firebase", color: "orange-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: regionalapp,
+    sourceCodeLink: "https://github.com/gshrmafp",
+  },
+  {
+    name: "Smart Workflow",
+    description:
+      "Full-stack task management system reducing paperwork and automating workflow with React.js, Node.js, and MySQL.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mysql", color: "orange-text-gradient" },
+    ],
+    image: smartworkflow,
+    sourceCodeLink: "https://github.com/gshrmafp",
   },
 ];
 

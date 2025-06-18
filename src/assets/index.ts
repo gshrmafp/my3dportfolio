@@ -29,6 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import airtel from "./company/airtel.png";
+import apeejay from "./company/apeejaymain.png";
+import smartworkflow from "./company/smartworkflow.png";
+import crcdrapp from "./company/crcdr.png";
+import regionalapp from "./company/crc_rm.png";
+import parentapp from "./company/apeejay.png";
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  apeejay,
+  airtel,
+  smartworkflow,
+  crcdrapp,
+  regionalapp,
+  parentapp,
 };
