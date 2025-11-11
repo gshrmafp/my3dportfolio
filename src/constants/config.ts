@@ -75,7 +75,7 @@ export const config: TConfig = {
     about: {
       p: "Professional Summary",
       h2: "About Me",
-      content: `Full-stack developer with 1.5+ years of experience building scalable applications using React, Java, Spring Boot. Proven ability to design robust architectures, implement complex business flows, and optimize performance in high-traffic systems. Passionate about solving real-world problems through clean code, system design thinking, and data-driven development.`,
+      content: `React Native CLI Developer with 2.5+ years of experience building scalable applications using React, Java, Spring Boot. Proven ability to design robust architectures, implement complex business flows, and optimize performance in high-traffic systems. Passionate about solving real-world problems through clean code, system design thinking, and data-driven development.`,
     },
     experience: {
       p: "Work Experience",
